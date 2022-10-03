@@ -10,6 +10,7 @@ const likeRoutes = require("./routes/like.routes");
 
 const app = express();
 app.use(cors({ origin: true }));
+
 // CORS
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
